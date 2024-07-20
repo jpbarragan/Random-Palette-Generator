@@ -23,3 +23,18 @@ window.addEventListener("load", function(){
     init();
 });
 
+function init(){
+    
+    let header = document.getElementById("header");
+    let coloredText = document.getElementById("colored-text");
+    let button = document.getElementById("button");
+    let paletteName = document.getElementById("palette-name");
+    let colorBlocks = [];
+    let colorCodes = [];
+    for (let i=0; i < 5; i++) {
+        colorBlocks.push(document.getElementById("color" + i));
+        colorCodes.push(document.getElementById("code" + i));
+    }
+
+
+}
